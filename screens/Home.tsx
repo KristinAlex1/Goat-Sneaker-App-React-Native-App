@@ -19,7 +19,7 @@ const Home = ({navigation}: Homeprops) => {
           data={shoeProducts}
           keyExtractor={item => item.name}
           renderItem={({item}) => (
-            <Pressable style={styles.shoeButton} onPress={() => navigation.navigate("Details", { Products: item})}>
+            <Pressable style={styles.shoeButton} onPress={() => navigation.navigate("Details", { product: item})}>
               <Image source={{uri: item.image}} style={styles.shoeImage} />
               <Text style={styles.shoeName}>{item.name}</Text>
               <Text style={styles.shoePrice}>{item.price}</Text>
