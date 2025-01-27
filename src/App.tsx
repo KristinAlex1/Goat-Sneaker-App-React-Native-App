@@ -3,10 +3,11 @@ import React from 'react'
 import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Home from '../screens/Home';
-
+import { Products } from '.';
+`   `
 export type RootStackParamList = {
   Home : undefined;
-  Details: {productId : string}
+  Details: {product: Products}
 }
 
 const Stack = createNativeStackNavigator<RootStackParamList>()
