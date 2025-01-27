@@ -29,9 +29,13 @@ A modern and intuitive sneaker catalog app built with **React Native**. The app 
 
 ## 🖼️ Screenshots
 
-| Home Screen | Product Details Screen |
-|-------------|-------------------------|
+| Home Screen | 
+|-------------|
 | ![Screenshot_20250127_190009](https://github.com/user-attachments/assets/db956e55-2513-4718-8fc5-091170c0dbea)
+
+
+| Product Details Screen |
+|-------------------------|
 | ![Screenshot_20250127_190018](https://github.com/user-attachments/assets/6a904c44-3fe7-40e9-ba61-dc0fd362bc00)
  |
 
